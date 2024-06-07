@@ -5,12 +5,21 @@
 # to native line endings on checkout.
 *.c text
 *.h text
-
+*.cpp text
+*.hpp text
+*.py text
+*.java text
+*.js text
+*.html text
+*.css text
+*.md text
 # Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
+*.vcproj text eol=crlf
 
 # Declare files that will always have LF line endings on checkout.
 *.sh text eol=lf
+*.yml text eol=lf
 
 # Binary files (no line-ending conversion)
 *.png binary
